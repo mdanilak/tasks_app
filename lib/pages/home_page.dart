@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void dispose() {
-    // Dispose of controller once the Widget is disposed of
+    // Dispose the controller once the Widget is disposed of
     myController.dispose();
 
     super.dispose();
